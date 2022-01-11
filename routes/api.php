@@ -23,3 +23,4 @@ Route::get('/productos','ProductController@obtenerProductos');
 Route::get('/categorias','ProductController@obtenerCategorias');
 
 Route::get('/categorias/{category}','ProductController@show');
+
